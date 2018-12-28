@@ -1,0 +1,51 @@
+[
+  {
+    "github_id": "@hoge-github",
+    "github_repository": "hoge-organization/hoge-repository",
+    "slack_id": "<@hoge_slack>",
+    "slack_channel": "#hoge_project_channel"
+  },
+  {
+    "github_id": "@here",
+    "github_repository": "hoge-organization/hoge-repository",
+    "slack_id": "<!here>",
+    "slack_channel": "#hoge_project_channel"
+  },
+  {
+    "github_id": "@channel",
+    "github_repository": "hoge-organization/hoge-repository",
+    "slack_id": "<!channel>",
+    "slack_channel": "#hoge_project_channel"
+  },
+  {
+    "github_id": "@hoge-organization/hoge-team1",
+    "github_repository": "*",
+    "slack_id": "-",
+    "slack_channel": "#hoge_team_channel1"
+  },
+  {
+    "github_id": "@hoge-organization/hoge-team2",
+    "github_repository": "*",
+    "slack_id": "<!here>",
+    "slack_channel": "#hoge_team_channel2"
+  },
+  {
+    "github_id": "@hoge-github",
+    "github_repository": "*",
+    "slack_id": "<@hoge_skack>",
+    "slack_channel": "@hoge_slack"
+  },
+  {
+    "github_id": "@here",
+    "github_repository": "*",
+    "slack_id": "<!here>",
+    "slack_channel": "-"
+  },
+  {
+    "github_id": "@channel",
+    "github_repository": "*",
+    "slack_id": "<!channel>",
+    "slack_channel": "-"
+  }
+]
+
