@@ -3,7 +3,7 @@ const API_TOKEN = process.env['API_TOKEN'];
 const settings = require('./settings.json');
 
 exports.handler = async (event) => {
-  const gitHubBody = JSON.parse(event.body);
+  const gitHubBody = event.body;
 
   const gitHub = {
     event: event.headers['X-GitHub-Event'],
